@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="readme.md" />
+    <File Path="reduce-memory-allocations.md" />
+  </Folder>
+  <Project Path="BenchmarkSuiteIntruderAlert/BenchmarkSuiteIntruderAlert.csproj" Id="3d3e697b-eb43-4ce4-a123-e3b0c591a9bf" />
+  <Project Path="ConsoleAppChannels/ConsoleAppChannels.csproj" Id="d0812d6a-e9a0-4efc-818a-9ac9cfbb654c" />
+  <Project Path="ConsoleAppCollection/ConsoleAppCollection.csproj" Id="c6525b57-c285-441d-b35a-9fac36161772" />
+  <Project Path="IntruderAlert-finished/IntruderAlert-Optimized.csproj" />
+  <Project Path="IntruderAlert-starter/IntruderAlert-Starter.csproj" />
+  <Project Path="NetBestPractices/NetBestPractices.csproj" />
+  <Project Path="WebApiMiddleware/WebApiMiddleware.csproj" />
+  <Project Path="WebApiOptions/WebApiOptions.csproj" Id="367df85b-c57f-4f01-8d9f-de704caf6476" />
+  <Project Path="WebApiProblemDetails/WebApiProblemDetails.csproj" Id="e1ed7523-cd7c-475f-b801-adf2b5904415" />
+  <Project Path="WebApiSSE/WebApiSSE.csproj" Id="bd04426d-94c0-4439-b85e-b5e057e612ee" />
+  <Project Path="WebApiTypedResults/WebApiTypedResults.csproj" Id="6e5ddaef-5ba5-4e83-a3d4-8631a3adea21" />
+  <Project Path="WebApiValidation/WebApiValidation.csproj" Id="8c867a5e-dd61-480c-99cd-9afb8e4d96d0" />
+  <Project Path="WorkerServiceSimple/WorkerServiceSimple.csproj" Id="56d8a72f-b28e-49fd-970a-57ef856554c8" />
+</Solution>

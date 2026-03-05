@@ -1,0 +1,9 @@
+@WebApiMiddleware_HostAddress = http://localhost:5255
+
+GET {{WebApiMiddleware_HostAddress}}/
+
+###
+
+GET {{WebApiMiddleware_HostAddress}}?branch=main
+
+###

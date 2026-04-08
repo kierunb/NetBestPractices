@@ -1,7 +1,11 @@
 ﻿using IntruderAlert;
 
 Console.WriteLine("Press <return> to start simulation");
+
 Console.ReadLine();
+var simulation = new Simulation();
+simulation.Start();
+
 
 
 public class Simulation

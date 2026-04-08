@@ -16,7 +16,8 @@ static async Task ClassBasedScenario(int numberOfMessages)
     Console.WriteLine();
 
     // Create an unbounded channel for WorkItem messages
-    var channel = Channel.CreateUnbounded<WorkItem>();
+    //var channel = Channel.CreateUnbounded<WorkItem>();
+    var channel = Channel.CreateBounded<WorkItem>(5);
 
     // Create producer and consumer instances
     var producer = new Producer(channel.Writer);
@@ -107,7 +108,7 @@ class Producer
                     Data = $"Task_{i}",
                     Timestamp = DateTime.Now
                 };
-
+                
                 await _writer.WriteAsync(workItem);
                 Console.WriteLine($"Producer: Sent {workItem}");
                 await Task.Delay(50); // Simulate work
